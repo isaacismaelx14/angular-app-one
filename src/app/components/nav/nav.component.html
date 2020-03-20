@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <div class="container">
-  <a class="navbar-brand" href="#">ClaryLegales</a>
+  <a class="navbar-brand" routerLink="/">ClaryLegales</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -8,10 +8,19 @@
 
   <div class="collapse navbar-collapse " id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
-      <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-        <button type="button" class="btn btn-primary"><i class="fas fa-envelope text-white mr-1"></i>Contactanos</button>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <a routerLink="/contactanos" class="btn btn-outline-lighty text-white">Contactanos</a>
+        <a class="btn btn-outline-lighty text-white">Login</a>
+        <a class="btn btn-primary text-white">Sing Up</a>
+      </div>      
+    </ul>
+  </div>
+</div>
+</nav>
+  <!--
 
-      
+      <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <a href="/contactanos" class="btn btn-primary text-white" ><i class="fas fa-envelope text-white mr-1"></i>Contactanos</a>
         <div class="btn-group" role="group">
           <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-user text-white"></i> Isaac Martinez
@@ -22,28 +31,5 @@
           </div>
         </div>
       </div>
-    </ul>
-
-  </div>
-</div>
-</nav>
-  <!--
-
-        <li class="nav-item dropdown user-btn text-white active">
-          <a class="nav-link dropdown-toggle btn btn-success" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-user text-white"></i> Isaac Martinez
-          </a>
-          <div class="dropdown-menu dropdown-menu-right " aria-labelledby="navbarDropdown">
-            <div class="ml-auto">
-                    <div class="blue-hover">
-                        <a class="dropdown-item" href="#">Perfil</a>
-                        <a class="dropdown-item " href="#">Mis servicios</a>
-                    </div>
-                <div class="dropdown-divider"></div>
-                    <div class="red-hover">
-                        <a class="dropdown-item" href="#">Cerrar Session</a>
-                    </div>
-            </div>
-          </div>
 
   -->

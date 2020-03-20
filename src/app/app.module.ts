@@ -7,6 +7,9 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { ContatcPageComponent } from './components/contatc-page/contatc-page.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { LoginPageComponent } from './components/login-page/login-page.component';
+import { SingupPageComponent } from './components/singup-page/singup-page.component';
+import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { FooterComponent } from './components/footer/footer.component';
     HomePageComponent,
     ContatcPageComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    LoginPageComponent,
+    SingupPageComponent,
+    NotFoundPageComponent
   ],
   imports: [
     BrowserModule,
