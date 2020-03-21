@@ -13,10 +13,6 @@ export class SingupPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    
-  }
 
-  clickMenu(){
-    document.getElementById('navbar').className = "navbar navbar-expand-lg navbar-dark bg-dark fixed-top";
   }
 }
