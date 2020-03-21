@@ -92,9 +92,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/addons/fullpage/css/fullpage.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/app.js"
+            ]
           }
         },
         "lint": {

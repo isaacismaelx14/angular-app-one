@@ -1,6 +1,7 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-<div class="container">
-  <a class="navbar-brand" routerLink="/">ClaryLegales</a>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+  <div class="container">
+  <a class="navbar-brand" routerLink="/" onclick="clickMenuHome();">ClaryLegales</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -9,14 +10,15 @@
   <div class="collapse navbar-collapse " id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <div class="btn-group" role="group" aria-label="Basic example">
-        <a routerLink="/contactanos" class="btn btn-outline-lighty text-white">Contactanos</a>
-        <a class="btn btn-outline-lighty text-white">Login</a>
-        <a class="btn btn-primary text-white">Sing Up</a>
+        <a routerLink="/contactanos" onclick="clickMenu();" class="btn btn-outline-lighty text-white">Contactanos</a>
+        <a routerLink="/login" class="btn btn-outline-lighty text-white" onclick="clickMenu();">Login</a>
+        <a routerLink="/signup" class="btn btn-primary text-white" >Sing Up</a>
       </div>      
     </ul>
   </div>
 </div>
 </nav>
+
   <!--
 
       <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
